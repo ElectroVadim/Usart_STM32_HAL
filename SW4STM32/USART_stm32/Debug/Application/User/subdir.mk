@@ -4,11 +4,11 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/gpio.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/main.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/stm32f4xx_hal_msp.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/stm32f4xx_it.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/usart.c 
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/gpio.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/main.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/stm32f4xx_hal_msp.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/stm32f4xx_it.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/usart.c 
 
 OBJS += \
 ./Application/User/gpio.o \
@@ -26,7 +26,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Application/User/gpio.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/gpio.c
+Application/User/gpio.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/gpio.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -34,7 +34,7 @@ Application/User/gpio.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/gpio.c
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Application/User/main.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/main.c
+Application/User/main.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/main.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -42,7 +42,7 @@ Application/User/main.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/main.c
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Application/User/stm32f4xx_hal_msp.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/stm32f4xx_hal_msp.c
+Application/User/stm32f4xx_hal_msp.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/stm32f4xx_hal_msp.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -50,7 +50,7 @@ Application/User/stm32f4xx_hal_msp.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Application/User/stm32f4xx_it.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/stm32f4xx_it.c
+Application/User/stm32f4xx_it.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/stm32f4xx_it.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -58,7 +58,7 @@ Application/User/stm32f4xx_it.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Sr
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Application/User/usart.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/usart.c
+Application/User/usart.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/usart.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%

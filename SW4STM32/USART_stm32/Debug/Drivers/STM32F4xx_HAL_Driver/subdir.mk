@@ -4,21 +4,21 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c \
-C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c 
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c \
+C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c 
 
 OBJS += \
 ./Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o \
@@ -56,7 +56,7 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -64,7 +64,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o: C:/Users/ostapchuk_v/Desktop/stm/U
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -72,7 +72,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o: C:/Users/ostapchuk_v/Deskto
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -80,7 +80,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o: C:/Users/ostapchuk_v/Desktop/s
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -88,7 +88,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o: C:/Users/ostapchuk_v/Deskto
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -96,7 +96,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.o: C:/Users/ostapchuk_v/Desktop
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -104,7 +104,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.o: C:/Users/ostapchuk_v/Desk
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -112,7 +112,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.o: C:/Users/ostapchuk_v
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -120,7 +120,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o: C:/Users/ostapchuk_v/Desktop/
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -128,7 +128,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o: C:/Users/ostapchuk_v/Desktop/s
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -136,7 +136,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.o: C:/Users/ostapchuk_v/Deskto
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -144,7 +144,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o: C:/Users/ostapchuk_v/Desktop/s
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -152,7 +152,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o: C:/Users/ostapchuk_v/Deskto
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -160,7 +160,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.o: C:/Users/ostapchuk_v/Desktop/s
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%
@@ -168,7 +168,7 @@ Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.o: C:/Users/ostapchuk_v/Deskto
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o: C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o: C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Compiler'
 	@echo %cd%

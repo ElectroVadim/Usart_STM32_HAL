@@ -62,7 +62,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-uint8_t str[] = "Usart transmit ";
+uint8_t str[] = "Usart transmit \r\n";
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -85,12 +85,8 @@ uint8_t str[] = "Usart transmit ";
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  int i=0;
 
-	  i = (sizeof(str)/sizeof(uint8_t)) ;
-
-
-	  HAL_UART_Transmit(&huart2, str,--i , 0xFFFF);
+	  HAL_UART_Transmit(&huart2, str, 15, 0xFFFF);
 	  HAL_Delay(100);
 
   /* USER CODE END WHILE */

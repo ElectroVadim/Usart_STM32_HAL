@@ -1,5 +1,5 @@
 Application/User/stm32f4xx_it.o: \
- C:/Users/ostapchuk_v/Desktop/stm/USART_stm32/Src/stm32f4xx_it.c \
+ C:/Users/ostapchuk_v/git/Usart_STM32_HAL/Src/stm32f4xx_it.c \
  ../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../../Inc/stm32f4xx_hal_conf.h ../../../Inc/mxconstants.h \
  ../../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
